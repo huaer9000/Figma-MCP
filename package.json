@@ -1,0 +1,39 @@
+{
+  "name": "figma-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "本机 Figma 插件 + 标准 MCP，操作当前打开的设计文件",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huaer9000/Figma-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huaer9000/Figma-MCP/issues"
+  },
+  "homepage": "https://github.com/huaer9000/Figma-MCP#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "tsx --test tests/**/*.test.ts",
+    "build": "tsx scripts/build.ts",
+    "start": "node dist/server/index.js",
+    "dev": "tsx server/src/index.ts",
+    "bridge": "tsx scripts/serve-bridge.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "ws": "^8.18.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.117.0",
+    "@types/node": "^24.5.2",
+    "@types/ws": "^8.18.1",
+    "esbuild": "^0.25.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

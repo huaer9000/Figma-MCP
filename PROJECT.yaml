@@ -1,0 +1,27 @@
+schema_version: 1
+initializer:
+  skill: project-initializer
+  template_version: "1.2.0"
+  initialized_at: "2026-09-10T10:40:23+08:00"
+
+project:
+  id: "figma-design-bridge"
+  name: "Figma设计桥接"
+  public_name: "Figma-MCP"
+  path: "/Users/lichao/Documents/Dev-project/Figma设计桥接"
+  github: "https://github.com/huaer9000/Figma-MCP"
+  status: implemented
+  profiles:
+    - software
+
+documents:
+  agents: AGENTS.md
+  readme: README.md
+  context: CONTEXT.md
+  docs_directory: docs
+
+settings:
+  local_agents_is_authority_after_initialization: true
+  template_updates_are_automatic: false
+  preserve_existing_files: true
+

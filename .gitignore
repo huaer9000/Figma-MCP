@@ -1,0 +1,11 @@
+node_modules/
+dist/
+plugin/dist/
+.DS_Store
+*.log
+tmp/
+logs/
+.cursor/
+.env
+.env.*
+repro/

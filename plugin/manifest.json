@@ -1,0 +1,16 @@
+{
+  "name": "Figma设计桥接",
+  "id": "figma-design-bridge-local",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"],
+    "devAllowedDomains": [
+      "http://localhost:17653",
+      "ws://localhost:17653"
+    ]
+  }
+}
