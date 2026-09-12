@@ -6,10 +6,11 @@
 
 - 项目状态：第一版已实现；读、切图、写入都已在「务工平台 / 设计稿」上试过
 - 当前阶段：工具 23 个。当前选中的 `Aetherfield / Homepage` 已做成可滚动的前端展示页
-- 最近检查点：2026-09-12（开源仓库名定为 Figma-MCP，准备推到 GitHub）
+- 最近检查点：2026-09-12（公开仓库 https://github.com/huaer9000/Figma-MCP ，commit `aa00e31`）
 
 ## 已完成
 
+- 2026-09-12：已初始化 Git（`main`）并推送到公开仓库 https://github.com/huaer9000/Figma-MCP 。首个 commit：`aa00e31`。未上传 `node_modules/`、`dist/`、`plugin/dist/`、`repro/`。许可为 MIT。
 - 2026-09-12：用户指定开源仓库名为 `Figma-MCP`。对外名称、README 标题、`package.json` 的 `name` 改为 Figma-MCP / `figma-mcp`。本机目录和 Figma 插件显示名仍为「Figma设计桥接」，MCP 服务名仍为 `figma-bridge`。新增 MIT `LICENSE`。`.gitignore` 排除 `repro/`、`.cursor/`、`logs/`、`.env*`。
 - 2026-09-12：按用户要求把 README「使用方法」改成中文逐步安装教程（环境、构建产物、桌面端导入插件、Cursor / Claude Code / 其它 stdio 客户端、连上验收、排错）。路径改为占位符，不再写死本机目录。`docs/TECH.md` 第 2.2.1、8.1 节改为指向 README，避免两套说明分叉。
 - 初始化项目文档并写完技术规格。
